@@ -7,7 +7,7 @@ module.exports =async function (context, req) {
          ratings =await  dao.getRatings();
          if(ratings.length>0){
               context.res = {
-              body: "staging:"+ratings
+              body: ratings
         };
     }
     }
