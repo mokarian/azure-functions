@@ -13,8 +13,8 @@ module.exports =async function (context, req) {
     }
     else {
         context.res = {
-            status: 400,
-            body: "No ratings could be found"
+            status:  400,
+            body: " No ratings  could  be  found!"
         };
     }
     context.done();
